@@ -13,13 +13,11 @@
 </head>
 <body>
 
-
-
     <div class="area">
         <nav class="main-menu">
             <ul>
                 <li>
-                    <a href="pages/inicio.html">
+                    <a href="index.php">
                         <i class="fa fa-home fa-2x" aria-hidden="true"></i>
                         <span class="nav-text">
                             Inicio
@@ -28,7 +26,7 @@
                   
                 </li>
                 <li class="has-subnav">
-                    <a href="pages/casos.html">
+                    <a href="pages/casos_views/caso_view.php">
                         <i class="fa fa-folder-open fa-2x"></i>
                         <span class="nav-text">
                             Gestión de casos
@@ -37,7 +35,7 @@
                     
                 </li>
                 <li class="has-subnav">
-                    <a href="pages/clientes.html">
+                    <a href="pages/clientes_views/cliente_view.php">
                        <i class="fa fa-users fa-2x" aria-hidden="true"></i>
                         <span class="nav-text">
                             Gestión de clientes
@@ -46,7 +44,7 @@
                     
                 </li>
                 <li class="has-subnav">
-                    <a href="pages/reportes.html">
+                    <a href="pages/reportes_views/reportes_view.php">
                         <i class="fa fa-file-text-o fa-2x" aria-hidden="true"></i>
                         <span class="nav-text">
                             Reportes
@@ -55,10 +53,37 @@
                    
                 </li>
                 <li>
-                    <a href="pages/configuración.html">
+                    <a href="#">
                         <i class="fa fa-cog fa-2x" aria-hidden="true"></i>
                         <span class="nav-text">
                             Configuración
+                        </span>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="pages/Configuraciones/abogados_views/abogado_view.php">
+                        <i class="fa fa-cog fa-2x" aria-hidden="true"></i>
+                        <span class="nav-text">
+                            Abogados
+                        </span>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="pages/Configuraciones/tipos_casos_views/tipos_casos_view.php">
+                        <i class="fa fa-cog fa-2x" aria-hidden="true"></i>
+                        <span class="nav-text">
+                            Tipos de Casos
+                        </span>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="pages/Configuraciones/estados_views/estados_view.php">
+                        <i class="fa fa-cog fa-2x" aria-hidden="true"></i>
+                        <span class="nav-text">
+                            Estados
                         </span>
                     </a>
                 </li>
