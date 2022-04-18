@@ -1,10 +1,10 @@
 <?php
-$conn = mysqli_connect(
-    'localhost',
-    'root',
-    'admin',
-    'sistemadeabogados'
-);
+// $conn = mysqli_connect(
+//     'localhost',
+//     'root',
+//     'admin',
+//     'sistemadeabogados'
+// );
 
 
 // if(isset($conn)){
