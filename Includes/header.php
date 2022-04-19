@@ -88,6 +88,23 @@
                     </a>
                 </li>
                
+                <!-- <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                        <i class="fa fa-cog fa-2x" aria-hidden="true"></i>    
+                        Configuraciones
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                       <a class="dropdown-item" href="pages/Configuraciones/abogados_views/abogado_view.php">Abogados</a>
+                       <a class="dropdown-item" href="#">Tipos de Casos</a>
+                       <a class="dropdown-item" href="#">Estados</a>
+                    </div>
+                </li> -->
+
+
+              
+               
+
+               
             </ul>
 
             <ul class="logout">
