@@ -1,55 +1,53 @@
 <?php include("../../../Includes/header.php");?>
 
 <div class="container">
-    <form>
+    <form action="../../../Services/Configuraciones/abogados_services/add_abogado_service.php" method="POST">
             <div class="form-group mt-3">
                 <label for="">IDAbogado</label>
-                <input type="" class="form-control" id="exampleFormControlInput1" placeholder="">
+                <input type="" name="IDAbogado" class="form-control" id="exampleFormControlInput1" placeholder="">
             </div>
             <br>
 
             <div class="form-group">
                 <label for="">Cedula</label>
-                <input type="" class="form-control" id="exampleFormControlInput1" placeholder="">
+                <input type="" name="Cedula" class="form-control" id="exampleFormControlInput1" placeholder="">
             </div>
             <br>
 
             <div class="form-group">
                 <label for="">Nombre</label>
-                <input type="" class="form-control" id="exampleFormControlInput1" placeholder="">
+                <input type="" name="Nombre" class="form-control" id="exampleFormControlInput1" placeholder="">
             </div>
             <br>
 
             <div class="form-group">
                 <label for="">Apellido</label>
-                <input type="" class="form-control" id="exampleFormControlInput1" placeholder="">
+                <input type="" name="Apellido" class="form-control" id="exampleFormControlInput1" placeholder="">
             </div>
             <br>
 
             <div class="form-group">
                 <label for="">Correo</label>
-                <input type="" class="form-control" id="exampleFormControlInput1" placeholder="">
+                <input type="" name="Correo" class="form-control" id="exampleFormControlInput1" placeholder="">
             </div>
             <br>
 
             <div class="form-group">
                 <label for="">NombreUsuario</label>
-                <input type="" class="form-control" id="exampleFormControlInput1" placeholder="">
+                <input type="" name="NombreUsuario" class="form-control" id="exampleFormControlInput1" placeholder="">
             </div>
             <br>
 
             <div class="form-group">
                 <label for="">Clave</label>
-                <input type="password" class="form-control" id="exampleFormControlInput1" placeholder="">
+                <input type="password" name="Clave" class="form-control" id="exampleFormControlInput1" placeholder="">
             </div>
             <br>
 
-            <div class="form-group">
-                <label for="">EsAdmin</label>
-                <input type="" class="form-control" id="exampleFormControlInput1" placeholder="">
-            </div>
+            
+            <br>
 
-            <button type="submit" class="btn btn-primary mt-3">Guardar</button>
+            <input type="submit" class="btn btn-success btn-block" name="guardar" value="Guardar">
             
     </form>
 

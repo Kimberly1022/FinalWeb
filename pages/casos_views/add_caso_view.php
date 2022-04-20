@@ -2,22 +2,22 @@
 
 
 <div class="container">
-    <form>
+    <form  action="../../Services/casos_services/add_caso_service.php" method="POST"> 
             <div class="form-group mt-3">
                 <label for="">IDCaso</label>
-                <input type="" class="form-control" id="exampleFormControlInput1" placeholder="">
+                <input type="" name="IDCaso" class="form-control" id="exampleFormControlInput1" placeholder="">
             </div>
             <br>
             <div class="form-group">
                 <label for="">Fecha</label>
-                <input type="date" class="form-control" id="exampleFormControlInput1" placeholder="">
+                <input type="date" name="Fecha" class="form-control" id="exampleFormControlInput1" placeholder="">
             </div>
             <br>
             <div class="form-group">
-                <label for="">IDCliente</label>
+                <label for="" name="">IDCliente</label>
                 <!-- <input type="" class="form-control" id="exampleFormControlInput1" placeholder=""> -->
 
-                <select class="form-select" aria-label="Default select example">
+                <select class="form-select" name="IDCliente" aria-label="Default select example">
                     <option selected>Seleccione el cliente</option>
                     <option value=""></option>
                     <option value=""></option>
@@ -30,7 +30,7 @@
                 <!-- <input type="select" class="form-control" id="exampleFormControlInput1" placeholder=""> -->
 
 
-                <select class="form-select" aria-label="Default select example">
+                <select class="form-select" name="IDTipoCaso" aria-label="Default select example">
                     <option selected>Seleccione el tipo de caso</option>
                     <option value=""></option>
                     <option value=""></option>
@@ -40,14 +40,14 @@
             <br>
             <div class="form-group">
                 <label for="">Descripcion</label>
-                <input type="textarea" class="form-control" id="exampleFormControlInput1" placeholder="">
+                <input type="textarea" name="Descripcion" class="form-control" id="exampleFormControlInput1" placeholder="">
             </div>
             <br>
             <div class="form-group">
                 <label for="">IDAbogado</label>
                 <!-- <input type="" class="form-control" id="exampleFormControlInput1" placeholder=""> -->
 
-                <select class="form-select" aria-label="Default select example">
+                <select class="form-select" name="IDAbogado" aria-label="Default select example">
                     <option selected>Seleccione el abogado</option>
                     <option value=""></option>
                     <option value=""></option>
@@ -59,7 +59,7 @@
                 <label for="">IDEstado</label>
                 <!-- <input type="" class="form-control" id="exampleFormControlInput1" placeholder=""> -->
 
-                <select class="form-select" aria-label="Default select example">
+                <select class="form-select" name="IDEstado" aria-label="Default select example">
                     <option selected>Seleccione el estado</option>
                     <option value=""></option>
                     <option value=""></option>
@@ -67,7 +67,7 @@
                 </select>
             </div>
 
-            <button type="submit" class="btn btn-primary mt-3">Guardar</button>
+            <input type="submit" class="btn btn-success btn-block" name="guardar" value="Guardar">
             
     </form>
 

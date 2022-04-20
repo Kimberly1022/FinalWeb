@@ -19,8 +19,6 @@
                 <th>Correo</th>
                 <th>NombreUsuario</th>
                 <th>Clave</th>
-                <th>ReiniciarClave</th>
-                <th>EsAdmin</th>
                 <th>----</th>
 
 
@@ -41,8 +39,6 @@
                     <td><?php echo $row['Correo']?></td>
                     <td><?php echo $row['NombreUsuario']?></td>
                     <td><?php echo $row['Clave']?></td>
-                    <td><?php echo $row['ReiniciarClave']?></td>
-                    <td><?php echo $row['EsAdmin']?></td>
                     <td>
                         <a href="edit_abogado_view.php?IDAbogado=<?php echo $row['IDAbogado']?>">
                             Editar

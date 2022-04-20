@@ -1,25 +1,25 @@
 <?php include("../../../Includes/header.php");?>
 
 <div class="container">
-    <form>
+    <form action="../../../Services/Configuraciones/tipos_casos_services/add_tipo_caso_service.php" method="POST">
             <div class="form-group mt-3">
                 <label for="">IDTipoCaso</label>
-                <input type="" class="form-control" id="exampleFormControlInput1" placeholder="">
+                <input type="" name="IDTipoCaso" class="form-control" id="exampleFormControlInput1" placeholder="">
             </div>
             <br>
 
             <div class="form-group">
                 <label for="">Nombre</label>
-                <input type="" class="form-control" id="exampleFormControlInput1" placeholder="">
+                <input type="" name="Nombre" class="form-control" id="exampleFormControlInput1" placeholder="">
             </div>
             <br>
 
             <div class="form-group">
                 <label for="">Descripcion</label>
-                <input type="" class="form-control" id="exampleFormControlInput1" placeholder="">
+                <input type="" name="Descripcion" class="form-control" id="exampleFormControlInput1" placeholder="">
             </div>
 
-            <button type="submit" class="btn btn-primary mt-3">Guardar</button>
+            <input type="submit" class="btn btn-success btn-block" name="guardar" value="Guardar">
             
     </form>
 
