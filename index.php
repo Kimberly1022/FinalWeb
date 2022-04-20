@@ -1,5 +1,29 @@
 <?php include("db.php");?>
 <?php include("Includes/header.php");?>
+<link rel="stylesheet" href="/FinalWeb/Css/index.css">
+
+
+<body>
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+    
 
 
 

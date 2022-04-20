@@ -20,7 +20,7 @@ if (isset($_POST['guardar'])){
     $_SESSION['message_type'] = 'Success';
 
 
-    header("Location: estado_view.php");
+    // header("Location: estado_view.php");
 }
 
 ?>

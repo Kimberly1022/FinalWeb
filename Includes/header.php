@@ -88,28 +88,13 @@
                     </a>
                 </li>
                
-                <!-- <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
-                        <i class="fa fa-cog fa-2x" aria-hidden="true"></i>    
-                        Configuraciones
-                    </a>
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                       <a class="dropdown-item" href="pages/Configuraciones/abogados_views/abogado_view.php">Abogados</a>
-                       <a class="dropdown-item" href="#">Tipos de Casos</a>
-                       <a class="dropdown-item" href="#">Estados</a>
-                    </div>
-                </li> -->
-
-
-              
-               
-
+            
                
             </ul>
 
             <ul class="logout">
                 <li>
-                   <a href="pages/salir.html">
+                   <a href="../index.php">
                          <i class="fa fa-power-off fa-2x"></i>
                         <span class="nav-text">
                             Salir
@@ -119,12 +104,4 @@
             </ul>
         </nav>
     </div>
-
-<!-- <nav class="navbar navbar-dark bg-dark">
-    <div class="container">
-        <a href="" class="navbar-brand">SISTEMA DE ABOGADOS</a>
-
-    </div>
-
-</nav> -->
 
