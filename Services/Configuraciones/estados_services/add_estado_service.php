@@ -1,5 +1,4 @@
 <?php include("../../../db.php");?>
-<?php include("../../../Includes/header.php");?>
 
 
 <?php 
@@ -7,9 +6,8 @@
 if (isset($_POST['guardar'])){
     $IDEstado = $_POST['IDEstado'];
     $Nombre = $_POST['Nombre'];
-    $Descripcion = $_POST['Descripcion'];
      
-    $query = "INSERT INTO estado(Nombre, Descripcion) VALUES ('$Nombre', '$Descripcion')";
+    $query = "INSERT INTO estado(Nombre, Descripcion) VALUES ('$Nombre')";
     $result = mysqli_query($conn, $query);
 
     if(!$result){
@@ -20,7 +18,7 @@ if (isset($_POST['guardar'])){
     $_SESSION['message_type'] = 'Success';
 
 
-    // header("Location: estado_view.php");
+    header("Location: /FinalWeb/pages/Configuraciones/estados_views/estados_view.php");
 }
 
 ?>

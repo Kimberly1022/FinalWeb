@@ -1,5 +1,4 @@
 <?php include("../../../db.php");?>
-<?php include("../../../Includes/header.php");?>
 
 
 <?php 
@@ -20,7 +19,7 @@ if (isset($_POST['guardar'])){
     $_SESSION['message_type'] = 'Success';
 
 
-    // header("Location: estado_view.php");
+    header("Location: /FinalWeb/pages/Configuraciones/tipos_casos_views/tipos_casos_view.php");
 }
 
 ?>

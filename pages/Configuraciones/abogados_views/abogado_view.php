@@ -27,7 +27,7 @@
         <tbody>
             <?php 
             $query = "SELECT * FROM abogado";
-            $result_estado = mysqli_query($conn, $query);
+            $result_abogado = mysqli_query($conn, $query);
 
             while($row = mysqli_fetch_array($result_estado)){ ?>
 

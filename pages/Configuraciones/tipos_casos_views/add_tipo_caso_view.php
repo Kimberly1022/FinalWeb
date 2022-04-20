@@ -14,11 +14,6 @@
             </div>
             <br>
 
-            <div class="form-group">
-                <label for="">Descripcion</label>
-                <input type="" name="Descripcion" class="form-control" id="exampleFormControlInput1" placeholder="">
-            </div>
-
             <input type="submit" class="btn btn-success btn-block" name="guardar" value="Guardar">
             
     </form>

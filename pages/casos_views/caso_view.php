@@ -28,9 +28,9 @@
         <tbody>
             <?php 
             $query = "SELECT * FROM caso";
-            $result_estado = mysqli_query($conn, $query);
+            $result_caso = mysqli_query($conn, $query);
 
-            while($row = mysqli_fetch_array($result_estado)){ ?>
+            while($row = mysqli_fetch_array($result_caso)){ ?>
 
                 <tr>
                     <td><?php echo $row['IDCaso']?></td>

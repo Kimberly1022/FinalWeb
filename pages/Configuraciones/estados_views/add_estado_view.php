@@ -22,11 +22,6 @@
                 <input type="text" name="Nombre" class="form-control" id="exampleFormControlInput1" placeholder="">
             </div>
             <br>
-            <div class="form-group">
-                <label for="">Descripcion</label>
-                <input type="text" name="Descripcion" class="form-control" id="exampleFormControlInput1" placeholder="">
-            </div>
-            <br>
 
             <input type="submit" class="btn btn-success btn-block" name="guardar" value="Guardar">
             

@@ -14,7 +14,6 @@
             <tr>
                 <th>IDEstado</th>
                 <th>Nombre</th>
-                <th>Descripcion</th>
                 <th>-----</th>
 
 
@@ -30,7 +29,6 @@
                 <tr>
                     <td><?php echo $row['IDEstado']?></td>
                     <td><?php echo $row['Nombre']?></td>
-                    <td><?php echo $row['Descripcion']?></td>
                     <td>
                         <a href="edit_estado_view.php?IDEstado=<?php echo $row['IDEstado']?>">
                             Editar

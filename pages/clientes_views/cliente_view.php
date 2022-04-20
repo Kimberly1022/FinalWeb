@@ -29,7 +29,7 @@
         <tbody>
             <?php 
             $query = "SELECT * FROM cliente";
-            $result_estado = mysqli_query($conn, $query);
+            $result_cliente = mysqli_query($conn, $query);
 
             while($row = mysqli_fetch_array($result_estado)){ ?>
 

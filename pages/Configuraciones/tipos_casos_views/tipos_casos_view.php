@@ -14,7 +14,6 @@
             <tr>
                 <th>IDEstado</th>
                 <th>Nombre</th>
-                <th>Descripcion</th>
                 <th>----</th>
 
 
@@ -23,14 +22,13 @@
         <tbody>
             <?php 
             $query = "SELECT * FROM tipocaso";
-            $result_estado = mysqli_query($conn, $query);
+            $result_tipocaso = mysqli_query($conn, $query);
 
             while($row = mysqli_fetch_array($result_estado)){ ?>
 
                 <tr>
                     <td><?php echo $row['IDTipoCaso']?></td>
                     <td><?php echo $row['Nombre']?></td>
-                    <td><?php echo $row['Descripcion']?></td>
                     <td>
                         <a href="edit_tipo_caso_view.php?IDTipoCaso=<?php echo $row['IDTipoCaso']?>">
                             Editar
