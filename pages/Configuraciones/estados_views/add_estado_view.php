@@ -2,23 +2,24 @@
 
 
 <div class="container">
-    <form action="">
+    <form action="../../../Services/Configuraciones/estados_services/add_estado_service.php" method="POST">
             <div class="form-group mt-3">
                 <label for="">IDEstado</label>
-                <input type="" class="form-control" id="exampleFormControlInput1" placeholder="">
+                <input type="" name="IDEstado" class="form-control" id="exampleFormControlInput1" placeholder="">
             </div>
             <br>
             <div class="form-group">
                 <label for="">Nombre</label>
-                <input type="" class="form-control" id="exampleFormControlInput1" placeholder="">
+                <input type="" name="Nombre" class="form-control" id="exampleFormControlInput1" placeholder="">
             </div>
             <br>
             <div class="form-group">
                 <label for="">Descripcion</label>
-                <input type="" class="form-control" id="exampleFormControlInput1" placeholder="">
+                <input type="" name="Descripcion" class="form-control" id="exampleFormControlInput1" placeholder="">
             </div>
+            <br>
 
-            <button type="submit" class="btn btn-primary mt-3">Guardar</button>
+            <input type="submit" class="btn btn-success btn-block" name="guardar" value="Guardar">
             
     </form>
 
