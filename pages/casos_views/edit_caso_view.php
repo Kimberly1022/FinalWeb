@@ -5,3 +5,10 @@
     <h2>EDITAR CASOS</h2>
 </div>
 <br>
+
+<?php
+
+if(isset($_GET))
+
+
+?>
