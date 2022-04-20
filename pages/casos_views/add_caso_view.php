@@ -7,12 +7,12 @@
                 <label for="">IDCaso</label>
                 <input type="" class="form-control" id="exampleFormControlInput1" placeholder="">
             </div>
-
+            <br>
             <div class="form-group">
                 <label for="">Fecha</label>
                 <input type="date" class="form-control" id="exampleFormControlInput1" placeholder="">
             </div>
-
+            <br>
             <div class="form-group">
                 <label for="">IDCliente</label>
                 <!-- <input type="" class="form-control" id="exampleFormControlInput1" placeholder=""> -->
@@ -24,7 +24,7 @@
                     <option value=""></option>
                 </select>
             </div>
-
+            <br>
             <div class="form-group">
                 <label for="">IDTipoCaso</label>
                 <!-- <input type="select" class="form-control" id="exampleFormControlInput1" placeholder=""> -->
@@ -37,12 +37,12 @@
                     <option value=""></option>
                 </select>
             </div>
-
+            <br>
             <div class="form-group">
                 <label for="">Descripcion</label>
-                <input type="" class="form-control" id="exampleFormControlInput1" placeholder="">
+                <input type="textarea" class="form-control" id="exampleFormControlInput1" placeholder="">
             </div>
-
+            <br>
             <div class="form-group">
                 <label for="">IDAbogado</label>
                 <!-- <input type="" class="form-control" id="exampleFormControlInput1" placeholder=""> -->
@@ -54,7 +54,7 @@
                     <option value=""></option>
                 </select>
             </div>
-
+            <br>
             <div class="form-group">
                 <label for="">IDEstado</label>
                 <!-- <input type="" class="form-control" id="exampleFormControlInput1" placeholder=""> -->

@@ -6,36 +6,43 @@
                 <label for="">IDCliente</label>
                 <input type="" class="form-control" id="exampleFormControlInput1" placeholder="">
             </div>
+            <br>
 
             <div class="form-group">
                 <label for="">Cedula</label>
                 <input type="" class="form-control" id="exampleFormControlInput1" placeholder="">
             </div>
+            <br>
 
             <div class="form-group">
                 <label for="">Nombre</label>
                 <input type="" class="form-control" id="exampleFormControlInput1" placeholder="">
             </div>
+            <br>
 
             <div class="form-group">
                 <label for="">Apellido</label>
                 <input type="" class="form-control" id="exampleFormControlInput1" placeholder="">
             </div>
+            <br>
 
             <div class="form-group">
                 <label for="">Correo</label>
                 <input type="" class="form-control" id="exampleFormControlInput1" placeholder="">
             </div>
+            <br>
 
             <div class="form-group">
                 <label for="">Telefono</label>
                 <input type="" class="form-control" id="exampleFormControlInput1" placeholder="">
             </div>
+            <br>
 
             <div class="form-group">
                 <label for="">Direccion</label>
                 <input type="" class="form-control" id="exampleFormControlInput1" placeholder="">
             </div>
+            <br>
 
             <div class="form-group">
                 <label for="">Estado Civil</label>

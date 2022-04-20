@@ -6,11 +6,13 @@
                 <label for="">IDTipoCaso</label>
                 <input type="" class="form-control" id="exampleFormControlInput1" placeholder="">
             </div>
+            <br>
 
             <div class="form-group">
                 <label for="">Nombre</label>
                 <input type="" class="form-control" id="exampleFormControlInput1" placeholder="">
             </div>
+            <br>
 
             <div class="form-group">
                 <label for="">Descripcion</label>

@@ -2,17 +2,17 @@
 
 
 <div class="container">
-    <form>
+    <form action="">
             <div class="form-group mt-3">
                 <label for="">IDEstado</label>
                 <input type="" class="form-control" id="exampleFormControlInput1" placeholder="">
             </div>
-
+            <br>
             <div class="form-group">
                 <label for="">Nombre</label>
                 <input type="" class="form-control" id="exampleFormControlInput1" placeholder="">
             </div>
-
+            <br>
             <div class="form-group">
                 <label for="">Descripcion</label>
                 <input type="" class="form-control" id="exampleFormControlInput1" placeholder="">

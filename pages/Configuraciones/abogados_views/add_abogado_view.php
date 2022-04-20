@@ -6,36 +6,43 @@
                 <label for="">IDAbogado</label>
                 <input type="" class="form-control" id="exampleFormControlInput1" placeholder="">
             </div>
+            <br>
 
             <div class="form-group">
                 <label for="">Cedula</label>
                 <input type="" class="form-control" id="exampleFormControlInput1" placeholder="">
             </div>
+            <br>
 
             <div class="form-group">
                 <label for="">Nombre</label>
                 <input type="" class="form-control" id="exampleFormControlInput1" placeholder="">
             </div>
+            <br>
 
             <div class="form-group">
                 <label for="">Apellido</label>
                 <input type="" class="form-control" id="exampleFormControlInput1" placeholder="">
             </div>
+            <br>
 
             <div class="form-group">
                 <label for="">Correo</label>
                 <input type="" class="form-control" id="exampleFormControlInput1" placeholder="">
             </div>
+            <br>
 
             <div class="form-group">
                 <label for="">NombreUsuario</label>
                 <input type="" class="form-control" id="exampleFormControlInput1" placeholder="">
             </div>
+            <br>
 
             <div class="form-group">
                 <label for="">Clave</label>
                 <input type="password" class="form-control" id="exampleFormControlInput1" placeholder="">
             </div>
+            <br>
 
             <div class="form-group">
                 <label for="">EsAdmin</label>
