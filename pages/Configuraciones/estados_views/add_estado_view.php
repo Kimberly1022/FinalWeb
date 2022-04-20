@@ -2,6 +2,15 @@
 
 
 <div class="container">
+
+    <?php if(isset($_SESSION['message'])) { ?>
+        <div class="alert alert-warning alert-dismissible fade show" role="alert">
+        <?= $_SESSION['message']  ?>
+        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+        </div>
+
+    <?php } ?>
+
     <form action="../../../Services/Configuraciones/estados_services/add_estado_service.php" method="POST">
             <div class="form-group mt-3">
                 <label for="">IDEstado</label>
@@ -10,12 +19,12 @@
             <br>
             <div class="form-group">
                 <label for="">Nombre</label>
-                <input type="" name="Nombre" class="form-control" id="exampleFormControlInput1" placeholder="">
+                <input type="text" name="Nombre" class="form-control" id="exampleFormControlInput1" placeholder="">
             </div>
             <br>
             <div class="form-group">
                 <label for="">Descripcion</label>
-                <input type="" name="Descripcion" class="form-control" id="exampleFormControlInput1" placeholder="">
+                <input type="text" name="Descripcion" class="form-control" id="exampleFormControlInput1" placeholder="">
             </div>
             <br>
 
