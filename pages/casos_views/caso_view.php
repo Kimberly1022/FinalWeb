@@ -42,7 +42,7 @@
                     <td><?php echo $row['IDEstado']?></td>
                     <td>
                         <a href="edit_caso_view.php?IDCaso=<?php echo $row['IDCaso']?>">
-                            Editar
+                            <i class="fa fa-edit fa-2x" aria-hidden="true">Editar</i>
                         </a>
 
                     </td>

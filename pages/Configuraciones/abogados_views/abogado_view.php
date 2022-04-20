@@ -29,7 +29,7 @@
             $query = "SELECT * FROM abogado";
             $result_abogado = mysqli_query($conn, $query);
 
-            while($row = mysqli_fetch_array($result_estado)){ ?>
+            while($row = mysqli_fetch_array($result_abogado)){ ?>
 
                 <tr>
                     <td><?php echo $row['IDAbogado']?></td>
@@ -41,7 +41,7 @@
                     <td><?php echo $row['Clave']?></td>
                     <td>
                         <a href="edit_abogado_view.php?IDAbogado=<?php echo $row['IDAbogado']?>">
-                            Editar
+                            <i class="fa fa-edit fa-2x" aria-hidden="true">Editar</i>
                         </a>
 
                     </td>

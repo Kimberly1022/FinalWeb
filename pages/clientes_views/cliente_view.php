@@ -31,7 +31,7 @@
             $query = "SELECT * FROM cliente";
             $result_cliente = mysqli_query($conn, $query);
 
-            while($row = mysqli_fetch_array($result_estado)){ ?>
+            while($row = mysqli_fetch_array($result_cliente)){ ?>
 
                 <tr>
                     <td><?php echo $row['IDCliente']?></td>
@@ -44,7 +44,7 @@
                     <td><?php echo $row['EstadoCivil']?></td>
                     <td>
                         <a href="edit_cliente_view.php?IDCliente=<?php echo $row['IDCliente']?>">
-                            Editar
+                            <i class="fa fa-edit fa-2x" aria-hidden="true">Editar</i>
                         </a>
 
                     </td>

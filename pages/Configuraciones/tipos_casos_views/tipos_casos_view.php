@@ -24,14 +24,14 @@
             $query = "SELECT * FROM tipocaso";
             $result_tipocaso = mysqli_query($conn, $query);
 
-            while($row = mysqli_fetch_array($result_estado)){ ?>
+            while($row = mysqli_fetch_array($result_tipocaso)){ ?>
 
                 <tr>
                     <td><?php echo $row['IDTipoCaso']?></td>
                     <td><?php echo $row['Nombre']?></td>
                     <td>
                         <a href="edit_tipo_caso_view.php?IDTipoCaso=<?php echo $row['IDTipoCaso']?>">
-                            Editar
+                            <i class="fa fa-edit fa-2x" aria-hidden="true">Editar</i>
                         </a>
 
                     </td>

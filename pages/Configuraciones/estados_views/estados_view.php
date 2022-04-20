@@ -31,7 +31,7 @@
                     <td><?php echo $row['Nombre']?></td>
                     <td>
                         <a href="edit_estado_view.php?IDEstado=<?php echo $row['IDEstado']?>">
-                            Editar
+                            <i class="fa fa-edit fa-2x" aria-hidden="true">Editar</i>
                         </a>
 
                     </td>
