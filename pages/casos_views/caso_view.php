@@ -15,11 +15,11 @@
             <tr>
                 <th>IDCaso</th>
                 <th>Fecha</th>
-                <th>IDCliente</th>
-                <th>IDTipoCaso</th>
+                <th>Cliente</th>
+                <th>Tipo_Caso</th>
                 <th>Descripcion</th>
-                <th>IDAbogado</th>
-                <th>IDEstado</th>
+                <th>Abogado</th>
+                <th>Estado</th>
                 <th>----</th>
 
 
@@ -27,19 +27,19 @@
         </thead>
         <tbody>
             <?php 
-            $query = "SELECT * FROM caso";
+            $query = "SELECT  c.IDCaso as IDCaso, c.Fecha as Fecha, c.Descripcion as Descripcion, CONCAT( a.Nombre, ' ', a.Apellido) as Abogado, CONCAT( cl.Nombre, '', cl.Apellido) AS Cliente, tc.Nombre AS Tipocaso, e.Nombre AS Estado FROM caso c INNER JOIN abogado a ON c.IDAbogado = a.IDAbogado INNER JOIN cliente cl ON c.IDCliente = cl.IDCliente INNER JOIN tipocaso tc ON c.IDTipoCaso = tc.IDTipoCaso INNER JOIN estado e ON c.IDEstado = e.IDEstado";
             $result_caso = mysqli_query($conn, $query);
 
             while($row = mysqli_fetch_array($result_caso)){ ?>
-
+.
                 <tr>
                     <td><?php echo $row['IDCaso']?></td>
                     <td><?php echo $row['Fecha']?></td>
-                    <td><?php echo $row['IDCliente']?></td>
-                    <td><?php echo $row['IDTipoCaso']?></td>
+                    <td><?php echo $row['Cliente']?></td>
+                    <td><?php echo $row['Tipocaso']?></td>
                     <td><?php echo $row['Descripcion']?></td>
-                    <td><?php echo $row['IDAbogado']?></td>
-                    <td><?php echo $row['IDEstado']?></td>
+                    <td><?php echo $row['Abogado']?></td>
+                    <td><?php echo $row['Estado']?></td>
                     <td>
                         <a href="edit_caso_view.php?IDCaso=<?php echo $row['IDCaso']?>">
                             <i class="fa fa-edit fa-2x" aria-hidden="true">Editar</i>

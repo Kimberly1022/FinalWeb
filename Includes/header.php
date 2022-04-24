@@ -13,10 +13,31 @@
     
 
 </head>
+
+<?php 
+    session_start(); 
+    $username = $_SESSION['username'];
+    
+    if (!isset($username)) {
+        header("Location: /FinalWeb/Pages/login_views/login_view.php");
+    }
+?>
+
+
 <body>
 
     <div class="area">
         <nav class="main-menu">
+
+            <center>
+                <img  src="/FinalWeb/Img/avatar.png" alt="Avatar" class="avatar">
+            </center>
+            
+            <div style="overflow-x: hidden;" class="m-3">
+                <p style="color: white; margin-left: 50px;" class=""><?php echo $username?></p>
+                <p style="color: white; margin-left: 70px;" class="">Abogado</p>    
+            </div>
+
             <ul>
                 <li>
                     <a href="/FinalWeb/index.php">
@@ -96,7 +117,7 @@
 
             <ul class="logout">
                 <li>
-                   <a href="../index.php">
+                   <a href="/FinalWeb/Services/login_services/logout_service.php">
                          <i class="fa fa-power-off fa-2x"></i>
                         <span class="nav-text">
                             Salir

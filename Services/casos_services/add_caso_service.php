@@ -23,7 +23,7 @@ if (isset($_POST['guardar'])){
     $_SESSION['message_type'] = 'Success';
 
 
-    header("Location: /FinalWeb/pages/Configuraciones/estados_views/estados_view.php");
+    header("Location: /FinalWeb/pages/casos_views/caso_view.php");
 }
 
 ?>
