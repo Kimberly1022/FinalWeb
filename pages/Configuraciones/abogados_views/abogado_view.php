@@ -40,7 +40,8 @@
                     <td><?php echo $row['NombreUsuario']?></td>
                     <td><?php echo $row['Clave']?></td>
                     <td>
-                        <a href="edit_abogado_view.php?IDAbogado=<?php echo $row['IDAbogado']?>">
+                        <!-- Aqui -->
+                        <a href="add_abogado_view.php?IDAbogado=<?php echo $row['IDAbogado']?>">
                             <i class="fa fa-edit fa-2x" aria-hidden="true">Editar</i>
                         </a>
 

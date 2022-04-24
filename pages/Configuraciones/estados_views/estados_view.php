@@ -30,7 +30,7 @@
                     <td><?php echo $row['IDEstado']?></td>
                     <td><?php echo $row['Nombre']?></td>
                     <td>
-                        <a href="edit_estado_view.php?IDEstado=<?php echo $row['IDEstado']?>">
+                        <a href="add_estado_view.php?IDEstado=<?php echo $row['IDEstado']?>">
                             <i class="fa fa-edit fa-2x" aria-hidden="true">Editar</i>
                         </a>
 
