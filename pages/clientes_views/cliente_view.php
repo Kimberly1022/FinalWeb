@@ -5,11 +5,11 @@
 <div class="container p-2">
     <h2>LISTADO DE CLIENTES</h2>
 </div>
-<br>
 
-        <div class="container" style="width: 1500px;">
 
-            <div class="card">
+    <div class="container" style="width: 2500px;">
+
+         <div class="card">
 
                 <div class="card-header">
                     <a href="add_cliente_view.php" class="btn btn-primary" role="button" aria-pressed="true">
@@ -52,7 +52,7 @@
                                 <td><?php echo $row['EstadoCivil']?></td>
                                 <td>
                                     <a href="add_cliente_view.php?IDCliente=<?php echo $row['IDCliente']?>" class="btn btn-warning p-1">
-                                        <i class="fa fa-edit fa-2x" aria-hidden="true"></i>
+                                        <i class="fa fa-edit fa-3x" aria-hidden="true"></i>
                                     </a>
 
                                 </td>
@@ -69,7 +69,7 @@
                 </div>
         </div>
 
-</div>
+    </div>
 
 
 

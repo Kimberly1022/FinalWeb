@@ -34,8 +34,8 @@
             </center>
             
             <div style="overflow-x: hidden;" class="m-3">
-                <p style="color: white; margin-left: 50px;" class=""><?php echo $username?></p>
-                <p style="color: white; margin-left: 70px;" class="">Abogado</p>    
+                <p style="color: white; margin-left: 50px;" class=""><?php echo $username?> | Abogado</p>
+                <!-- <p style="color: white; margin-left: 70px;" class="">Abogado</p>     -->
             </div>
 
             <ul>

@@ -1,5 +1,6 @@
 <?php include("../../db.php")?>
 <?php include("../../Includes/header.php");?>
+<link rel="stylesheet" href="/FinalWeb/Css/table.css">
 
 <div class="container p-2">
     <h2>LISTADO DE REPORTES</h2>
