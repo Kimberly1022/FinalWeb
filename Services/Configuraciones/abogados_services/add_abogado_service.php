@@ -20,8 +20,6 @@ if (isset($_POST['guardar'])){
             die("Fallo");
         }
     
-        // $_SESSION['message'] = 'Estado Guardado';
-        // $_SESSION['message_type'] = 'Success';
         
     }else {
         $query = "UPDATE abogado SET Cedula = '$Cedula', Nombre = '$Nombre', Apellido = '$Apellido', Correo = '$Correo', NombreUsuario = '$NombreUsuario', Clave = '$Clave' WHERE IDAbogado = $IDAbogado";

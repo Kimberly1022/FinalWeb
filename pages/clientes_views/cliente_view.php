@@ -7,10 +7,12 @@
 <br>
 
 <div class="container"> 
-
+        <a href="add_cliente_view.php" class="btn btn-primary" role="button" aria-pressed="true">
+            Agregar Cliente
+        </a>
 
     <div class="col-md-8">
-    <table class="table table-bordered">
+    <table class="table table-striped table-bordered">
         <thead>
             <tr>
                 <th>IDCliente</th>
@@ -43,8 +45,8 @@
                     <td><?php echo $row['Direccion']?></td>
                     <td><?php echo $row['EstadoCivil']?></td>
                     <td>
-                        <a href="edit_cliente_view.php?IDCliente=<?php echo $row['IDCliente']?>">
-                            <i class="fa fa-edit fa-2x" aria-hidden="true">Editar</i>
+                        <a href="add_cliente_view.php?IDCliente=<?php echo $row['IDCliente']?>" class="btn btn-warning p-1">
+                            <i class="fa fa-edit fa-2x" aria-hidden="true"></i>
                         </a>
 
                     </td>
@@ -68,9 +70,6 @@
 </div>
 
 
-<div class="container b-1">
-    <a href="add_cliente_view.php" class="btn btn-primary" role="button" aria-pressed="true">Agregar Cliente</a>
 
-</div>
 <?php include("../../Includes/footer.php")?>
 

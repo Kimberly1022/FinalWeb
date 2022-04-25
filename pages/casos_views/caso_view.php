@@ -34,7 +34,6 @@
             $result_caso = mysqli_query($conn, $query);
 
             while($row = mysqli_fetch_array($result_caso)){ ?>
-.
                 <tr>
                     <td><?php echo $row['IDCaso']?></td>
                     <td><?php echo $row['Fecha']?></td>

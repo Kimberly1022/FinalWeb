@@ -10,7 +10,7 @@
 
 
     <div class="col-md-8">
-    <table class="table table-bordered">
+    <table class="table table-striped table-bordered">
         <thead>
             <tr>
                 <th>IDCaso</th>
@@ -31,7 +31,6 @@
             $result_caso = mysqli_query($conn, $query);
 
             while($row = mysqli_fetch_array($result_caso)){ ?>
-.
                 <tr>
                     <td><?php echo $row['IDCaso']?></td>
                     <td><?php echo $row['Fecha']?></td>
@@ -41,8 +40,8 @@
                     <td><?php echo $row['Abogado']?></td>
                     <td><?php echo $row['Estado']?></td>
                     <td>
-                        <a href="edit_caso_view.php?IDCaso=<?php echo $row['IDCaso']?>">
-                            <i class="fa fa-edit fa-2x" aria-hidden="true">Exportar</i>
+                        <a href="php?IDCaso=<?php echo $row['IDCaso']?>" class="btn btn-warning p-1">
+                            <i class="fa fa-print fa-2x" aria-hidden="true"></i>
                         </a>
 
                     </td>

@@ -4,7 +4,7 @@
 <?php 
 
 if (isset($_POST['guardar'])){
-    $IDAbogado = $_POST['IDCliente'];
+    $IDCliente = $_POST['IDCliente'];
     $Cedula = $_POST['Cedula'];
     $Nombre = $_POST['Nombre'];
     $Apellido = $_POST['Apellido'];
@@ -13,16 +13,25 @@ if (isset($_POST['guardar'])){
     $Direccion = $_POST['Direccion'];
     $EstadoCivil =$_POST['EstadoCivil'];
 
-     
-    $query = "INSERT INTO cliente(Cedula, Nombre, Apellido, Correo, Telefono, Direccion, EstadoCivil ) VALUES ('$Cedula','$Nombre', '$Apellido','$Correo', '$Telefono', '$Direccion', '$EstadoCivil')";
-    $result = mysqli_query($conn, $query);
+    
+    if ($IDCliente == 0) {
+        $query = "INSERT INTO cliente(Cedula, Nombre, Apellido, Correo, Telefono, Direccion, EstadoCivil ) VALUES ('$Cedula','$Nombre', '$Apellido','$Correo', '$Telefono', '$Direccion', '$EstadoCivil')";
+        $result = mysqli_query($conn, $query);
 
-    if(!$result){
-        die("Fallo");
+        if(!$result){
+            die("Fallo");
+        }
+
+    }else {
+        $query = "UPDATE cliente SET Cedula = '$Cedula', Nombre = '$Nombre', Apellido = '$Apellido', Correo = '$Correo', Telefono = '$Telefono', Direccion = '$Direccion', EstadoCivil = '$EstadoCivil' WHERE IDCliente = $IDCliente";
+        $result = mysqli_query($conn, $query);
+
+        if(!$result){
+            die("Fallo");
+        }
     }
 
-    $_SESSION['message'] = 'Estado Guardado';
-    $_SESSION['message_type'] = 'Success';
+
 
     header("Location: /FinalWeb/pages/clientes_views/cliente_view.php");
 

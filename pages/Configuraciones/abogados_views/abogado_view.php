@@ -6,10 +6,15 @@
 </div>
 
 <div class="container"> 
+    <a href="add_abogado_view.php" class="btn btn-primary" role="button" aria-pressed="true">
+        Agregar Abogado
+    </a>
+
+
 
 
     <div class="col-md-8">
-    <table class="table table-bordered">
+    <table class="table table-striped table-bordered">
         <thead>
             <tr>
                 <th>IDAbogado</th>
@@ -40,9 +45,8 @@
                     <td><?php echo $row['NombreUsuario']?></td>
                     <td><?php echo $row['Clave']?></td>
                     <td>
-                        <!-- Aqui -->
-                        <a href="add_abogado_view.php?IDAbogado=<?php echo $row['IDAbogado']?>">
-                            <i class="fa fa-edit fa-2x" aria-hidden="true">Editar</i>
+                        <a href="add_abogado_view.php?IDAbogado=<?php echo $row['IDAbogado']?>" class="btn btn-warning p-1">
+                            <i class="fa fa-edit fa-2x" aria-hidden="true"></i>
                         </a>
 
                     </td>
@@ -65,10 +69,7 @@
 
 </div>
 
-<div class="container b-1">
-    <a href="add_abogado_view.php" class="btn btn-primary" role="button" aria-pressed="true">Agregar Abogado</a>
 
-</div>
 
 <?php include("../../../Includes/footer.php")?>
 

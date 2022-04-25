@@ -6,58 +6,59 @@
 </div>
 
 <div class="container"> 
+    <a href="add_tipo_caso_view.php" class="btn btn-primary" role="button" aria-pressed="true">
+        Agregar Tipo de Caso
+    </a>
+
 
 
     <div class="col-md-8">
-    <table class="table table-bordered">
-        <thead>
-            <tr>
-                <th>IDEstado</th>
-                <th>Nombre</th>
-                <th>----</th>
-
-
-            </tr>
-        </thead>
-        <tbody>
-            <?php 
-            $query = "SELECT * FROM tipocaso";
-            $result_tipocaso = mysqli_query($conn, $query);
-
-            while($row = mysqli_fetch_array($result_tipocaso)){ ?>
-
+        <table class="table table-striped table-bordered">
+            <thead>
                 <tr>
-                    <td><?php echo $row['IDTipoCaso']?></td>
-                    <td><?php echo $row['Nombre']?></td>
-                    <td>
-                        <a href="edit_tipo_caso_view.php?IDTipoCaso=<?php echo $row['IDTipoCaso']?>">
-                            <i class="fa fa-edit fa-2x" aria-hidden="true">Editar</i>
-                        </a>
-
-                    </td>
+                    <th>IDEstado</th>
+                    <th>Nombre</th>
+                    <th>----</th>
 
 
                 </tr>
+            </thead>
+            <tbody>
+                <?php 
+                $query = "SELECT * FROM tipocaso";
+                $result_tipocaso = mysqli_query($conn, $query);
+
+                while($row = mysqli_fetch_array($result_tipocaso)){ ?>
+
+                    <tr>
+                        <td><?php echo $row['IDTipoCaso']?></td>
+                        <td><?php echo $row['Nombre']?></td>
+                        <td>
+                            <a href="add_tipo_caso_view.php?IDTipoCaso=<?php echo $row['IDTipoCaso']?>" class="btn btn-warning p-1">
+                                <i class="fa fa-edit fa-2x" aria-hidden="true"></i>
+                            </a>
+
+                        </td>
 
 
-            <?php } ?>
-
-        </tbody>
+                    </tr>
 
 
+                <?php } ?>
+
+            </tbody>
 
 
-    </table>
+
+
+        </table>
 
 
     </div>
 
 </div>
 
-<div class="container b-1">
-    <a href="add_tipo_caso_view.php" class="btn btn-primary" role="button" aria-pressed="true">Agregar Tipo de Caso</a>
 
-</div>
 
 <?php include("../../../Includes/footer.php")?>
 
