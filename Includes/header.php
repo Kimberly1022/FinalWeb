@@ -75,43 +75,35 @@
                     </a>
                    
                 </li>
-                <li>
-                    <a href="#">
+
+                <li class="has-subnav">
+                    <a href="#" class="dropdown-btn">
                         <i class="fa fa-cog fa-2x" aria-hidden="true"></i>
                         <span class="nav-text">
                             Configuración
                         </span>
                     </a>
+                    <div class="dropdown-container">
+                        <a class="has-subnav" href="/FinalWeb/pages/Configuraciones/abogados_views/abogado_view.php">
+                            <i class="fa fa-cog fa-2x" aria-hidden="true"></i>
+                            <span class="nav-text">
+                                Abogados
+                            </span>
+                        </a>
+                        <a href="/FinalWeb/pages/Configuraciones/tipos_casos_views/tipos_casos_view.php">
+                            <i class="fa fa-cog fa-2x" aria-hidden="true"></i>
+                            <span class="nav-text">
+                               Tipos de Casos
+                            </span>
+                        </a>
+                        <a href="/FinalWeb/pages/Configuraciones/estados_views/estados_view.php">
+                            <i class="fa fa-cog fa-2x" aria-hidden="true"></i>
+                            <span class="nav-text">
+                                Estados
+                            </span>
+                        </a>
+                    </div>
                 </li>
-
-                <li>
-                    <a href="/FinalWeb/pages/Configuraciones/abogados_views/abogado_view.php">
-                        <i class="fa fa-cog fa-2x" aria-hidden="true"></i>
-                        <span class="nav-text">
-                            Abogados
-                        </span>
-                    </a>
-                </li>
-
-                <li>
-                    <a href="/FinalWeb/pages/Configuraciones/tipos_casos_views/tipos_casos_view.php">
-                        <i class="fa fa-cog fa-2x" aria-hidden="true"></i>
-                        <span class="nav-text">
-                            Tipos de Casos
-                        </span>
-                    </a>
-                </li>
-
-                <li>
-                    <a href="/FinalWeb/pages/Configuraciones/estados_views/estados_view.php">
-                        <i class="fa fa-cog fa-2x" aria-hidden="true"></i>
-                        <span class="nav-text">
-                            Estados
-                        </span>
-                    </a>
-                </li>
-               
-            
                
             </ul>
 
@@ -128,3 +120,4 @@
         </nav>
     </div>
 
+    <script src="/FinalWeb/Js/menu.js"></script>
