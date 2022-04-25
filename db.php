@@ -2,10 +2,10 @@
 
 
 $conn = mysqli_connect(
-    'localhost',
-    'root',
-    'admin',
-    'sistemadeabogados'
+    'bmfm6guw679exibaaqnn-mysql.services.clever-cloud.com',
+    'uvawypoosg5ca9wd',
+    'HaDUxmvdi6JDLXPYwnjQ',
+    'bmfm6guw679exibaaqnn'
 );
 
 
